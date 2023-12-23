@@ -375,7 +375,7 @@ except:
     open(path, "w").write("200\n100\n50")
     hsfile = open(path, "r")
 for line in hsfile:
-    highscores.append(int(line))
+    highscores.append(float(line))
 
 
 piece_queue=[]
